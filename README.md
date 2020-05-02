@@ -13,6 +13,6 @@ I'll meet you over there, can't wait to get started!
 This repository is licensed under [MIT](../LICENSE) (c) 2019 GitHub, Inc.
 
 {% for member in .stu %}
-  <h2> >> ![photo]({{ member.image }}）@{{ member.name }}（{{ staff_member.position }}）</h2>
-    <p> >> {{ staff_member.content | markdownify }}</p>
+  <h2> ![photo]({{ member.image }}) - {{ member.name }}（{{ staff_member.position }}）</h2>
+    <p> {{ staff_member.content | markdownify }}</p>
 {% endfor %}
