@@ -1,4 +1,4 @@
 theme: jekyll-theme-midnight
 collections:
-  -stu:
+  _stu:
 encoding: UTF-8
