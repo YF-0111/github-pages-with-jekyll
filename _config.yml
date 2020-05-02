@@ -1,6 +1,4 @@
 theme: jekyll-theme-midnight
-plugins:
-- jekyll-optional-front-matter
 collections:
   stu:
-  output: true
+encoding: UTF-8
