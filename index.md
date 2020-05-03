@@ -6,12 +6,4 @@
     </figure>
   {{ member.content ｜ markdownify }} 
    </h2>
-   
-  <style type="text/css">
-q:lang(no)
-   {
-   quotes: "~" "~"
-   }
-</style>
-
 {% endfor %}
