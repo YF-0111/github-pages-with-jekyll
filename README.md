@@ -13,7 +13,5 @@
   + {{ member.content ｜ markdownify }}  
 {% endfor %}
 
-loiu
-
 ---
 Last updated: {{ site.time }}
