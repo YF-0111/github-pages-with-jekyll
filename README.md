@@ -9,7 +9,7 @@
  <p>![](https://github.com/csci3251-2020/project-team-m/workflows/CI/badge.svg) </p>
  <h1>Contributors</h1>  
 {% for member in site.stu %}  
-  + ![pic]({{ member.image }}){:height="50px" width="50px"}@{{ member.user }}({{member.name}})  
+ + ![pic]({{ member.image }}){:height="50px" width="50px"}@{{ member.user }}({{member.name}})  
  +{{ member.content ｜ markdownify }}  
 {% endfor %}
 
