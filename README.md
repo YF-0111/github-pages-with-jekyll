@@ -10,7 +10,7 @@
  <h1>Contributors</h1>  
 {% for member in site.stu %}  
  + ![pic]({{ member.image }}){:height="50px" width="50px"}@{{ member.user }}({{member.name}})  
-   + {{ member.content ｜ markdownify }}  
+  + {{ member.content ｜ markdownify }}  
 {% endfor %}
 
 loiu
