@@ -1,6 +1,6 @@
 
 {% for member in site.stu %}
-member.image[alt=pic] {
+img[pic] {
   width: 1px;
   border: none;
   background: none;
