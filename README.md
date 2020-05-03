@@ -13,7 +13,7 @@
    + {{ member.content ｜ markdownify }}  
 {% endfor %}
 
-loi
+loiu
 
 ---
 Last updated: {{ site.time }}
