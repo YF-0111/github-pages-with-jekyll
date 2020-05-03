@@ -4,6 +4,6 @@
   <figure>
   >> <img src="{{ member.image }}"> @{{ member.user }}(member.name)
     </figure>
-  </h2>
-   >>{{ member.content ｜ markdownify }} 
+    >>{{ member.content ｜ markdownify }} 
+   </h2>
 {% endfor %}
