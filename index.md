@@ -1,7 +1,7 @@
 
 {% for member in site.stu %}
 img[alt=pic] {
-  width: 5px;
+  width: 1px;
   border: none;
   background: none;
 }
