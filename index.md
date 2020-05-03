@@ -1,7 +1,9 @@
 
 {% for member in site.stu %}
+<h2>
   <figure>
-  <a><img src="{{ member.image }}"></a>
+  <img src="{{ member.image }}">
   </figure>@{{ member.name }}
+  </h2>
    {{ member.content ｜ markdownify }} 
 {% endfor %}
