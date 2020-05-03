@@ -1,4 +1,4 @@
 {% for member in site.stu %}
-  <h2> ![pic]({{member.image}}) @{{ member.name }}</h2>
-   {{ member.content ｜ markdownify }} 
+  <h2> [photo]({% link member.image %}) - {{ member.name }}）</h2>
+    <p> {{ member.content | markdownify }}</p>
 {% endfor %}
